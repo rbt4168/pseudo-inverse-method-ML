@@ -4,9 +4,15 @@ Written in C17.
 
 Theory is finding " Moore–Penrose inverse of A " and times it to b to slove x\*.
 
-In liner system : Ax\* = b.
+In liner system : 
 
-x\* = ( transposA \* A )^-1 \* transposA \* b
+$Ax= b$
+
+$x = A^{-1}b$
+
+Generally :
+
+$x^* = A^†b = (A^TA)^{-1} A^Tb$
 
 Ref : [https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse "https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse")
 
